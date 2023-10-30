@@ -1,0 +1,83 @@
+footer {
+  flex-direction: column;
+  height: 40rem;
+}
+
+.subscription {
+  width: 57.1rem;
+  height: 180.7rem;
+  border-radius: 6px;
+  justify-content: center;
+  text-align: center;
+  background: #7296ab;
+  transform: translateY(10rem);
+  margin-top: 10rem;
+}
+
+.subscription-content {
+  flex-direction: column;
+  height: 100%;
+  padding: 4.5rem;
+  gap: 1rem;
+}
+
+.subscription-content > h1 {
+  font-size: var(--heading-font-size);
+  color: white;
+}
+
+.subscription-content > p {
+  font-size: var(--primary-font-size);
+  color: white;
+}
+
+#user-email {
+  height: 3.6rem;
+  width: 26.8rem;
+  font-size: var(--primary-font-size);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  border: 1px solid #7296ab;
+  outline: none;
+}
+
+#submit-btn {
+  border-radius: 6px;
+  height: 3.6rem;
+  width: 8rem;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  background: white;
+}
+
+.footer {
+  background: #d1e2eb;
+  width: 134.5rem;
+  height: 36.2rem;
+  gap: 14rem;
+  padding-bottom: 10rem;
+  z-index: -1;
+  padding-top: 15rem;
+}
+
+.ul > li {
+  list-style: none;
+  color: #555555;
+  font-size: var(--primary-font-size);
+}
+
+.footer > ul {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-heading {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.third-list {
+  transform: translateY(2.2rem);
+}

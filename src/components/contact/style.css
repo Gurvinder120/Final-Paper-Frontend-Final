@@ -1,0 +1,79 @@
+.contact {
+  height: 76.4rem;
+  width: 126rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.contact-left {
+  width: 63rem;
+  height: 100%;
+  background: var(--accent);
+  padding: 5rem 5rem;
+}
+
+.contact-right {
+  width: 63rem;
+  height: 100%;
+}
+
+.contact-right > img {
+  /* width: 100%; */
+  transform: translateY(0.5px);
+}
+
+.left-heading {
+  font-size: 4.8rem;
+  color: white;
+}
+
+.inside-heading {
+  color: #ffc94b;
+  font-size: 4.8rem;
+}
+
+form {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+form > label {
+  font-size: var(--primary-font-size);
+  color: white;
+}
+
+label > i {
+  font-size: var(--primary-font-size);
+  padding-right: 5px;
+}
+
+form > .contact-inputs {
+  height: 5.6rem;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+#description {
+  height: 15.3rem;
+  padding-bottom: 10rem;
+}
+
+#formBtn {
+  background: var(--default-btn-color);
+  color: white;
+  border: none;
+  font-size: var(--primary-font-size);
+}
+
+.contact-right-img {
+  margin-top: -1px;
+}

@@ -1,0 +1,28 @@
+.sample-blog {
+  margin: 5rem auto;
+}
+
+.smaple-blog-title {
+  font-size: 2.4rem;
+  /* margin-right: 20rem; */
+  font-weight: bold;
+}
+
+.for-border {
+  border-left: 0.5rem solid var(--default-btn-color);
+  height: 5rem;
+  transform: translateX(-15rem);
+  padding-left: 4rem;
+}
+
+.blog-content {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+
+.blog-content > p {
+  font-size: 1.6rem;
+  color: var(--accent);
+}

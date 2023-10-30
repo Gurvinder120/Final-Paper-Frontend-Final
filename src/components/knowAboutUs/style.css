@@ -1,0 +1,58 @@
+.know-about-us {
+  width: 144rem;
+  height: 46.129rem;
+  gap: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.know-about-us-title {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.know-about-us-description {
+  font-size: var(--heading-font-size);
+}
+
+.know-about-us-description > span {
+  font-size: var(--heading-font-size);
+}
+
+.know-about-us-description-description {
+  color: gray;
+  font-size: 1.8rem;
+  line-height: 5rem;
+}
+
+.quote {
+  background: #eaf3fb;
+  font-size: 2.4rem;
+  color: gray;
+  text-align: center;
+  width: 28.198rem;
+  height: 16.665rem;
+  padding-top: 3rem;
+}
+
+#on-the-top {
+  transform: translateX(10rem) translateY(3rem);
+}
+
+.know-about-us-left {
+  flex-direction: column;
+}
+
+.numbers {
+  display: flex;
+  margin: 2rem;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.numbers > .first > p,
+.numbers > .second > p,
+.numbers > .third > p {
+  font-size: 1.862rem;
+  color: gray;
+}

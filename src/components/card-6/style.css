@@ -1,0 +1,20 @@
+.blog-card-6 {
+  display: flex;
+  gap: 2rem;
+}
+
+.blog-card-6-left > img {
+  width: 92.5rem;
+  height: 64.2rem;
+}
+
+.blog-card-6-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2.1rem;
+}
+
+.blog-card-6-right > img {
+  width: 31.5rem;
+  height: 20rem;
+}

@@ -1,0 +1,30 @@
+.categories {
+  height: 6rem;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.category {
+  font-size: var(--primary-font-size);
+  list-style: none;
+  color: var(--primary-color);
+}
+
+.category {
+  cursor: pointer;
+}
+
+.category.active {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .categories {
+    gap: 1.5rem;
+  }
+
+  .category {
+    font-size: 1.2rem;
+  }
+}

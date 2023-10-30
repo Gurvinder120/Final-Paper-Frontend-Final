@@ -1,0 +1,137 @@
+.flash-sales {
+  flex-direction: column;
+  height: 50rem;
+  margin-top: 2rem;
+}
+
+#flash-sales-heading {
+  font-size: 2.6rem;
+  transform: translateX(-55rem);
+}
+
+.first-second-product,
+.third-fourth-product {
+  gap: 2rem;
+  display: flex;
+}
+
+.products {
+  display: flex;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.first-product,
+.second-product,
+.third-product,
+.fourth-product {
+  transition: 0.2s;
+  text-align: center;
+  flex-direction: column;
+  width: 30.5rem;
+  border-radius: 1rem;
+  transition: 0.2s;
+  gap: 2rem;
+}
+
+.products > div:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.deal-of-day {
+  color: var(--primary-color);
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.time-remaining {
+  font-size: var(--primary-font-size);
+}
+
+.product-name {
+  font-size: 1.6rem;
+}
+
+.product-category {
+  color: var(--primary-color);
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+s {
+  font-size: var(--primary-font-size);
+}
+
+.product-price {
+  color: red;
+  font-size: var(--primary-font-size);
+}
+
+.product-name {
+  font-size: 1.6rem;
+}
+
+.product-category {
+  font-size: var(--primary-font-size);
+}
+
+.product-discount {
+  background: red;
+  padding: 0.2rem 1rem;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.product-reviews {
+  padding-top: 1rem;
+}
+
+.product-reviews > img {
+  width: 1.3rem;
+}
+
+/* ------------------------------------- */
+
+@media (max-width: 768px) {
+  .flash-sales {
+    height: 100rem;
+  }
+
+  .first-second-product,
+  .third-fourth-product {
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  .first-product,
+  .second-product,
+  .third-product,
+  .fourth-product {
+    width: 31.5rem;
+    height: 43rem;
+  }
+
+  #flash-sales-heading {
+    font-size: 2.6rem;
+    overflow: hidden;
+    transform: translateX(-28rem);
+  }
+}
